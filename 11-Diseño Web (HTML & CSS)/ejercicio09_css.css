@@ -1,0 +1,27 @@
+h1{
+    color:   #3a816a  ;
+}
+.destacado{
+    color:#a3943d ;
+}
+h2, em{
+    color:  #314a7c ;
+}
+.especial1{
+    color:  #9c7e96 ;
+}
+.especial, .purus{
+    color:  #f3a343 ;
+}
+tfoot, .especial4, a, strong{
+    color:  #e33733 ;
+}
+table, .blandit, .donec{
+    color: #64a461 ;
+}
+div{
+    color:  #8d8d36 ;
+}
+#especial5{
+    color:  #cc51d4 ;
+}

@@ -1,0 +1,57 @@
+<!--
+    Por último, vamos a crear un formulario para registrar un usuario que se vea de la 
+    siguiente manera:
+    Es importante que en las casillas de sexo del usuario se puede clickear la/s palabra/s 
+    hombre, mujer o prefiero no decir para seleccionar la opción. Recordemos que eso lo 
+    podemos hacer con la etiqueta label.
+-->
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <h1>Regitrar un usuario</h1>
+    <form>
+      <label>Nombre del usuario</label><br />
+      <input type="text" name="Nombre" /><br />
+      <br />
+      <label>Contraseña del usuario</label><br />
+      <input type="password" name="password" /><br />
+      <br />
+      <label>Edad del usuario</label><br />
+      <input type="number" name="edad" /><br />
+      <br />
+      <label>Fecha de nacimiento del usuario</label><br />
+      <input type="date" name="fechaNac" /><br />
+      <br />
+      <label>Sexo del usuario</label><br />
+      <input type="radio" name="sexoDelUsuario" value="Hombre" />Hombre<br />
+      <input type="radio" name="sexoDelUsuario" value="Mujer" />Mujer<br />
+      <input
+        type="radio"
+        name="sexoDelUsuario"
+        value="Prefiero no decir"
+      />Prefiero no decir<br />
+      <br />
+      <label>Pais de nacimiento del usuario</label><br />
+      <select name="País">
+        <option value="">Argentina</option>
+        <option value="">Brasil</option>
+        <option value="">Chile</option>
+        <option value="">Uruguay</option>
+        <option value="">Venezuela</option>
+        <option value="">Peru</option>
+        <option value="">Colombia</option>
+        <option value="">Ecuador</option></select
+      ><br />
+      <br />
+      <input type="submit" value="Enviar" /><input
+        type="reset"
+        value="Borrar"
+      />
+    </form>
+  </body>
+</html>

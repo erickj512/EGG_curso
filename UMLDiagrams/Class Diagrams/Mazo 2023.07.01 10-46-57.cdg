@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ClassDiagram name="Mazo">
+  <ClassDiagramComponents>
+    <Class name="Mazo" package="entidad" visibility="public" xPosition="1220.0" yPosition="20.0">
+      <Fields>
+        <Field name="mazo" type="List&lt;Carta&gt;" visibility="private" isFinal="true"/>
+        <Field name="mazoFuera" type="List&lt;Carta&gt;" visibility="private" isFinal="true"/>
+        <Field name="index" type="int" visibility="private"/>
+      </Fields>
+      <Constructors>
+        <Constructor visibility="public"/>
+      </Constructors>
+      <Methods>
+        <Method name="barajar" returnType="void" visibility="public"/>
+        <Method name="siguienteCarta" returnType="Carta" visibility="public"/>
+        <Method name="cartasDisponibles" returnType="int" visibility="public"/>
+        <Method name="darCartas" returnType="List&lt;Carta&gt;" visibility="public">
+          <Argument type="int" name="count"/>
+        </Method>
+        <Method name="cartasMonton" returnType="void" visibility="public"/>
+        <Method name="mostrarMazo" returnType="void" visibility="public"/>
+      </Methods>
+    </Class>
+  </ClassDiagramComponents>
+  <ClassDiagramRelations/>
+</ClassDiagram>
